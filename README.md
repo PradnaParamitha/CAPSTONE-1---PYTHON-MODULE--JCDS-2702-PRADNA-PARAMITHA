@@ -1,142 +1,49 @@
-# README PROGRAM PENJUALAN BARANG TOKO SEDERHANA DENGAN PYTHON
+# Program Penjualan Barang Toko Sederhana dengan Python
 
-Program dalam repository ini yang berjudul “Program Penjualan Barang Toko” berisi kode dalam format python yang dibuat untuk memenuhi tugas Capstone Purwadhika untuk kelas JCDS-2072. Program Penjualan Barang Toko ini berfungsi untuk membantu pegawai toko fiksional bernama Toko Kelontong Kami untuk melihat serta mencatat inventori barang serta melakukan jual beli dengan fungsi kasir yang terdapat dalam program.
+Repositori ini berisi kode program Python berjudul **"Program Penjualan Barang Toko"** yang dikembangkan sebagai bagian dari proyek Capstone Modul 1 (Python) untuk kelas JCDS-2072 di Purwadhika.
 
+Program ini dirancang untuk membantu pegawai toko fiksional bernama **Toko Kelontong Kami** dalam mencatat inventori barang dan melakukan transaksi penjualan dengan fitur kasir.
+
+---
+## Fitur-Fitur Utama Program
+
+#### 1.  Login Karyawan
   
-
-Program ini ditujukan untuk membantu pengguna program untuk mengecek inventori barang toko; menambahkan, menghapus, serta mengedit data barang,; dan melakukan penghitungan jual-beli barang.
-
-
-## **Fitur Utama**
-
-##### 1.  Login Karyawan
-    
-
-  
-
 Untuk menjaga keamanan barang, karyawan melakukan login terlebih dahulu sebelum mengakses dan menggunakan program ini. Adapun data yang perlu diisi antara lain Nama, ID Karyawan serta Password (data dummy akan diberikan di bawah).
 
-  
-
-##### 2.  Menampilkan Daftar Barang
+#### 2.  Menampilkan Daftar Barang
     
-
 Fitur ini berfungsi untuk menampilkan kode, nama, stok dan harga barang yang telah tersedia. Sebagai placeholder, saya telah menyiapkan tiga item (Sabun, Tisu, Odol) dalam rangkaian data dummy.
-
-  
 
 Fitur ini merupakan salah satu fitur yang berfungsi memenuhi kebutuhan fitur READ yang terdapat dalam ketentuan Capstone.
 
-##### 3.  Menambah Barang Baru
-    
-
+#### 3.  Menambah Barang Baru
+  
 Fitur ini berfungsi untuk menambah item baru ke dalam inventori dengan penambahan kode secara otomatis. Fitur ini merupakan salah satu fitur yang berfungsi memenuhi kebutuhan fitur CREATE yang terdapat dalam ketentuan Capstone.
 
-  
-
-##### 4.  Menghapus Barang
-    
-
-  
+#### 4.  Menghapus Barang
 
 Fitur ini berfungsi untuk menghapus item dari daftar barang. Dalam hal ini, penghapusan dilakukan berdasarkan kode barang (tiap kode barang bersifat unik atau di-assign ke masing-masing barang. Fitur ini merupakan fitur yang berfungsi memenuhi kebutuhan fitur DELETE yang terdapat dalam ketentuan Capstone.
 
-  
-
-##### 5.  Mengedit Data Barang
-    
+#### 5.  Mengedit Data Barang
 
 Fitur ini dikembangkan sebagai fitur tambahan setelah fungsi untuk menambah dan menghapus data barang. Pengguna program, seperti di menu menghapus barang, dapat mengedit data barang (nama, stok, harga) berdasarkan kode barang tertentu.
 
-  
-
 Fitur ini merupakan salah satu fitur yang berfungsi memenuhi kebutuhan fitur UPDATE untuk memperbarui data barang yang terdapat dalam ketentuan Capstone.
 
-  
-
-##### 6.  Membeli Barang (Cart & Checkout)
+#### 6.  Membeli Barang (Cart & Checkout)
     
-
-  
-
 Dalam program penjualan barang toko, fungsi untuk membeli barang sangatlah dibutuhkan. Karena itu, saya menambahkan menu kasir agar pengguna aplikasi dapat menambah barang ke cart dan melakukan checkout saat ada pelanggan yang ingin membeli barang. Menu kasir ini dapat melakukan antara lain menambahkan barang ke keranjang, menghitung subtotal, input uang pembayaran, dan menghitung kembalian.
-
-  
 
 Fitur ini merupakan salah satu fitur yang dapat memenuhi kebutuhan fitur UPDATE yang terdapat dalam ketentuan Capstone karena berfungsi memperbarui stok barang dengan cara mengurangi stok setelah pembelian barang
 
-  
-
-##### 7.  Keluar Program
+#### 7.  Keluar Program
     
-
-  
-
 Menu ini menyediakan opsi keluar dari program dengan konfirmasi pengguna.
 
-  
+---
 
-
-
-## **Flow Penggunaan Program**
-
-Berikut adalah flow “Program Penjualan Barang Toko” dari awal hingga akhir
-
-  
-
-#### 1.  Inisiasi program
-    
-
-  
-
-Tampilkan salam pembuka dan minta login karyawan:
-
--   Nama (unik), tidak case-sensitive
-    
--   ID Karyawan (unik)
-    
--   Password
-    
-
-  
-
-#### 2.  Validasi Login
-    
-
-  
-
-Jika:
-
--   Berhasil → lanjut ke menu utama  
-      
-    
--   Gagal → ulangi input sampai benar
-    
-
-  
-
-#### 3.  Menu Utama
-    
-
-  
-
-1. Menampilkan Daftar Barang
-
-2. Menambah Barang
-
-3. Menghapus Barang
-
-4. Mengedit Data Barang
-
-5. Membeli Barang
-
-6. Keluar Program
-
-  
-
-#### Penjelasan menu
-
-  
+## Flow Penggunaan Program
 
 #### 3.1. Menampilkan Daftar Barang (READ)
 
@@ -254,7 +161,7 @@ Jika:
   
   
 
-#### 3.5. Membeli barang (UPDATE)
+#### 3.5. Membeli barang
 
 3.5.1. Menampilkan tabel barang berisi nama, ketersediaan (stok dan harga barang yang bisa dibeli
 
@@ -325,20 +232,24 @@ Jika:
 
 - Tidak : Kembali ke menu utama
 
-## **Struktur Data**
 
-Kode ini menggunakan beberapa list utama yang digunakan untuk menyimpan informasi inventori.
 
-| Variabel | Deskripsi                                | Isi List                     | Tipe Data |
-|----------|-------------------------------------------|------------------------------|-----------|
-| kode     | List kode unik barang (angka)             | 1001, 1002, 1003             | Integer   |
-| barang   | List nama barang                          | 'Sabun', 'Tisu', 'Odol'      | String    |
-| stok     | List jumlah stok masing-masing barang     | 30, 20, 20                   | Integer   |
-| harga    | List harga satuan masing-masing barang    | 5000, 10000, 15000           | Integer   |
+---
 
-## **Dummy Data**
+## Struktur Data
 
-Berikut adalah data dummy karyawan  yang telah disiapkan sebelumnya untuk login program.
+Program ini menggunakan beberapa list Python untuk menyimpan data inventori:
+
+| Variabel | Deskripsi                             | Contoh Isi                 | Tipe Data |
+|----------|----------------------------------------|-----------------------------|-----------|
+| `kode`   | Kode unik barang                       | 1001, 1002, 1003            | Integer   |
+| `barang` | Nama barang                            | 'Sabun', 'Tisu', 'Odol'     | String    |
+| `stok`   | Jumlah stok masing-masing barang       | 30, 20, 20                  | Integer   |
+| `harga`  | Harga satuan masing-masing barang      | 5000, 10000, 15000          | Integer   |
+
+---
+
+## Dummy Data Karyawan
 
 | Nama  | ID Karyawan | Password    |
 |-------|-------------|-------------|
@@ -346,12 +257,14 @@ Berikut adalah data dummy karyawan  yang telah disiapkan sebelumnya untuk login 
 | Budi  | BU02        | welcome123  |
 | Cece  | CE03        | welcome123  |
 
+---
+
 ## Informasi Penulis
 
-Program ini dibuat oleh Pradna Aqmaril Paramitha sebagai bagian dari pembelajaran Capstone Modul 1: Python, kelas JCDS-2702 - Purwadhika BSD.
+Program ini dikembangkan oleh **Pradna Aqmaril Paramitha** sebagai bagian dari tugas Capstone kelas **JCDS-2702** di **Purwadhika BSD**.
 
+---
 
 ## Lisensi
 
-Program ini bebas digunakan dan dimodifikasi untuk keperluan edukasi atau non-komersial lainnya.
-
+Program ini dapat digunakan dan dimodifikasi secara bebas untuk keperluan edukasi dan non-komersial.
