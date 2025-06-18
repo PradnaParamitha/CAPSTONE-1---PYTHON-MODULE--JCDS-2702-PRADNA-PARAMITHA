@@ -163,7 +163,7 @@ Menu ini menyediakan opsi keluar dari program dengan konfirmasi pengguna.
 
 #### 3.5. Membeli barang
 
-3.5.1. Menampilkan tabel barang berisi nama, ketersediaan (stok dan harga barang yang bisa dibeli
+3.5.1. Menampilkan tabel barang berisi nama, ketersediaan (stok dan harga barang yang bisa dibeli)
 
 3.5.1. Memasukkan barang ke dalam cart:
 
