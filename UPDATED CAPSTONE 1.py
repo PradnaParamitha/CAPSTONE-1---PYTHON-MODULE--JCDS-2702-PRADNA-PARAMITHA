@@ -30,7 +30,7 @@ Silakan masukkan Nama, Kode ID, dan Password Anda:''')
         print("ID atau password tidak sesuai.")
     else:
       print("Nama tidak ditemukan. Silakan coba lagi.")
-#Saya membuat conditional dalam login rinci
+#Saya membuat conditional dalam login dengan rinci untuk memastikan pengguna menginput data sesuai dengan nama dan kode unik karyawan yang telah disediakan 
 
 
 def menu_barang():
