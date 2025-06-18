@@ -165,7 +165,7 @@ Menu ini menyediakan opsi keluar dari program dengan konfirmasi pengguna.
 
 3.5.1. Menampilkan tabel barang berisi nama, ketersediaan (stok dan harga barang yang bisa dibeli)
 
-3.5.1. Memasukkan barang ke dalam cart:
+3.5.2. Memasukkan barang ke dalam cart:
 
 1.  Memilih kode barang yang akan dimasukkan dalam cart
     
@@ -175,18 +175,19 @@ Menu ini menyediakan opsi keluar dari program dengan konfirmasi pengguna.
 -   Kode mengurangi stok berdasarkan jumlah barang yang dibeli
     
 
- 3.5.2. Konfirmasi membeli barang lain atau tidak
+ 3.5.3. Menampilkan barang belanjaan (cart)
+ 3.5.4.Konfirmasi membeli barang lain atau tidak
 
 -   Ya: mengulangi proses 3.5.1
     
 -   Tidak: Keluar ke menu utama
     
 
-3.5.4. Menampilkan barang belanjaan (cart)
+3.5.5. Menampilkan barang belanjaan (cart)
 
-3.5.5. Menampilkan total harga
+3.5.6. Menampilkan total harga
 
-3.5.6. Input jumlah uang dari pembeli
+3.5.7. Input jumlah uang dari pembeli
 
 -   Kurang: Pengguna diminta memasukkan nominal lain hingga pas atau lebih
     
