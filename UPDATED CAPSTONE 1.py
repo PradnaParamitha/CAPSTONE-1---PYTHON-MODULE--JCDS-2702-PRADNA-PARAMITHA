@@ -1,13 +1,14 @@
+# Kode ini menggunakan beberapa list utama yang berisi data dummy sebagai data awal (dapat ditambahkan dan dikurangi)
 kode = [1001,1002,1003]
 kode_akhir = 1003
 barang = ['Sabun', 'Tisu', 'Odol']
 stok = [30, 20, 20]
 harga = [5000, 10000, 15000]
-
+# Berikut adalah data dummy karyawan yang telah disiapkan sebelumnya untuk diinput saat login program 
 nama = ['Alice', 'Budi', 'Cece']
 user_id = ['AL01', 'BU02', 'CE03']
 password = 'welcome123'
-
+#Fungsi di bawah ini adalah fungsi yang pertama kali berjalan saat program diaktifkan
 def salam_booting():
   print('''Selamat Datang di Toko Kelontong Kami!
 Silakan masukkan Nama, Kode ID, dan Password Anda:''')
@@ -16,7 +17,7 @@ Silakan masukkan Nama, Kode ID, dan Password Anda:''')
     input_nama = input(f"Nama:")
     input_id = input("Nomor ID: ")
     input_pass = input("Password: ")
-
+# Validasi login telah dibuat sedemikian rupa agar semua input yang dimasukkan ke dalam field login sudah sesuai
     if input_nama.capitalize() in nama:
       index_user = nama.index(input_nama.capitalize())
       if input_id == user_id[index_user] and input_pass == password:
@@ -26,7 +27,7 @@ Silakan masukkan Nama, Kode ID, dan Password Anda:''')
         print("ID atau password tidak sesuai.")
     else:
       print("Nama tidak ditemukan. Silakan coba lagi.")
-
+#Fungsi menu_barang di bawah ini menampilkan barang sesuai data yang paling update. Kode ini penting untuk dijadikan fungsi karena merupakan salah satu kode yang paling sering digunakan berulang-ulang
 def menu_barang():
   print ("\nDaftar barang\n")
   print ( "Kode \t| Nama   \t| Stok \t| Harga ")
