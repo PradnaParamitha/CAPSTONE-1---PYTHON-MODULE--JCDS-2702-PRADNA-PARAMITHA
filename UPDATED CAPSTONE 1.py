@@ -6,11 +6,12 @@ harga = [5000, 10000, 15000]
 # Serangkaian kode diatas berisi list barang, kode, jumlah stok serta harga. Saya memasukkan tiga barang dengan angka terakhir 1003. Saya menandai kode akhir agar nantinya bisa dilanjutkan jika ada penambahan barang baru
 
 #sebelum program penjualan barang dapat diakses, saya membuat fitur login terlebih dahulu untuk karyawan toko yang ingin mengakses inventori barang. 
-# Elemen-elemen yang dibutuhkan untuk login antara lain nama (saat ini hanya diberi tiga terlebih dahulu), user_id (ditentukan dalam bentuk string), dan password
+# Berikut adalah data dummy karyawan yang telah disiapkan sebelumnya untuk login program 
 nama = ['Alice', 'Budi', 'Cece']
 user_id = ['AL01', 'BU02', 'CE03']
 password = 'welcome123'
 
+# Untuk menjaga keamanan data barang, karyawan melakukan login terlebih dahulu sebelum mengakses dan menggunakan program ini. 
 def salam_booting():
   print('''Selamat Datang di Toko Kelontong Kami!
 Silakan masukkan Nama, Kode ID, dan Password Anda:''')
