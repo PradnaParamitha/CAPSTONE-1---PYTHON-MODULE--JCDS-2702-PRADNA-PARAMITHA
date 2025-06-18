@@ -182,37 +182,11 @@ Menu ini menyediakan opsi keluar dari program dengan konfirmasi pengguna.
 -   Tidak: Keluar ke menu utama
     
 
-3.5.3. Memasukkan angka menu yang ingin dijalankan
+3.5.4. Menampilkan barang belanjaan (cart)
 
--   Mengganti konten data:
-    
+3.5.5. Menampilkan total harga
 
-4.  Nama barang
-    
-5.  Stok barang
-    
-6.  Harga barang
-    
-
-3.5.4. Update data barang berdasarkan input pengguna
-
--   Pemberian kode secara otomatis berdasarkan angka kode terakhir
-    
--   Menampilkan tabel inventori yang datanya sudah update
-    
-
-3.5.5. Konfirmasi mengedit barang lain atau tidak
-
--   Ya: mengulangi proses 3.4
-    
--   Tidak: Meneruskan proses pembayaran
-    
-
-3.5.6. Menampilkan barang belanjaan (cart)
-
-3.5.7. Menampilkan total harga
-
-3.5.8. Input jumlah uang dari pembeli
+3.5.6. Input jumlah uang dari pembeli
 
 -   Kurang: Pengguna diminta memasukkan nominal lain hingga pas atau lebih
     
