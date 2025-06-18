@@ -110,7 +110,7 @@ Menu ini menyediakan opsi keluar dari program dengan konfirmasi pengguna.
 -   Menampilkan tabel inventori yang sudah dikurangi barangnya
     
 
-3.3.4. Konfirmasi menambah barang lain atau tidak
+3.3.4. Konfirmasi menghapus barang lain atau tidak
 
 -   Ya: mengulangi proses dari 3.3.1
     
